@@ -158,7 +158,6 @@ $(document).ready(function () {
                             dataString += "&";
                         }
                     }
-                    console.log(dataString);
                     $.ajax({
                         type:"POST",
                         url:"http://users.metropolia.fi/~mirkon/form.php",
