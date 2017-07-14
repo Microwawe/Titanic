@@ -160,7 +160,7 @@ $(document).ready(function () {
                     }
                     $.ajax({
                         type:"POST",
-                        url:"http://users.metropolia.fi/~mirkon/form.php",
+                        url:"../form.php",
                         data: dataString,
                         cache: false,
                         success: function(str) {
@@ -246,7 +246,7 @@ $(document).ready(function () {
                     });                    
                     $.ajax({
                         type:"POST",
-                        url:"http://users.metropolia.fi/~mirkon/vote.php",
+                        url:"../vote.php",
                         data: {'data' : JSON.stringify(dates)},
                         cache: false,
                         success: function(str) {
@@ -346,7 +346,7 @@ $(document).ready(function () {
                 html += '</tr></thead>';
 
 
-                $.get("http://users.metropolia.fi/~mirkon/api.php/prices", function(data) {
+                $.get("../prices.php", function(data) {
                     calendarData = JSON.parse(data);
                 
                     html += '<tbody><tr>'
@@ -450,7 +450,7 @@ $(document).ready(function () {
 
             // luo äänestyksen tulosten perusteella palkkigraafin
             function createGraph(element) {
-                $.get("http://users.metropolia.fi/~mirkon/results.php", function(data) {
+                $.get("../results.php", function(data) {
                     var object = JSON.parse(data);
                     var rows = object.length;
                     if (rows>10) {
