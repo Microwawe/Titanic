@@ -43,10 +43,10 @@ $(document).ready(function () {
 
             // hover vaihtaa navin "kotisivun" logon väriä
             $("#homepage").hover(function() {
-                $("#logo").attr("src","icons/cruise.png");
+                $("#logo").attr("src","icon/cruise.png");
             }, function() {
                 if (!$('li').first().hasClass('active')) {
-                    $("#logo").attr("src","icons/cruise_blue.png");
+                    $("#logo").attr("src","icon/cruise_blue.png");
                 }
             });
 
@@ -56,9 +56,9 @@ $(document).ready(function () {
                 var sectionId = $(this).attr('href');
                 var fromTop = $(sectionId).offset().top;
                 if (sectionId == "#home") {
-                    $("#logo").attr("src","icons/cruise.png");
+                    $("#logo").attr("src","icon/cruise.png");
                 } else {
-                    $("#logo").attr("src","icons/cruise_blue.png");
+                    $("#logo").attr("src","icon/cruise_blue.png");
                 }
                 $('html, body').stop().animate({
                     scrollTop: fromTop
@@ -78,9 +78,9 @@ $(document).ready(function () {
                     sectionList.parent().removeClass("active").end().filter("[href='#" + id + "']").parent().addClass("active");
                     // vaihtaa logon värin samalla kun "etusivulle" scrollataan
                     if (id == "home") {
-                        $("#logo").attr("src","icons/cruise.png");
+                        $("#logo").attr("src","icon/cruise.png");
                     } else {
-                        $("#logo").attr("src","icons/cruise_blue.png");
+                        $("#logo").attr("src","icon/cruise_blue.png");
                     }
                 }
             })
@@ -160,7 +160,7 @@ $(document).ready(function () {
                     }
                     $.ajax({
                         type:"POST",
-                        url:"http://users.metropolia.fi/~mirkon/form.php",
+                        url:"../form.php",
                         data: dataString,
                         cache: false,
                         success: function(str) {
@@ -246,7 +246,7 @@ $(document).ready(function () {
                     });                    
                     $.ajax({
                         type:"POST",
-                        url:"http://users.metropolia.fi/~mirkon/vote.php",
+                        url:"../vote.php",
                         data: {'data' : JSON.stringify(dates)},
                         cache: false,
                         success: function(str) {
@@ -271,7 +271,7 @@ $(document).ready(function () {
                     month = 11;
                 } else if(month == 11) {
                     month--;
-                    $('#title').next().replaceWith('<th id="next-month"> <img src="icons/right-arrow.png"></th>');
+                    $('#title').next().replaceWith('<th id="next-month"> <img src="icon/right-arrow.png"></th>');
                 } else {
                     month--;
                     if(month == currentDate.getMonth() && year == currentDate.getFullYear()) {
@@ -292,7 +292,7 @@ $(document).ready(function () {
                     */
                 } else {
                     if(month == currentDate.getMonth() && year == currentDate.getFullYear()) {
-                        $('#title').prev().replaceWith('<th id="last-month"> <img src="icons/left-arrow.png"></th>');
+                        $('#title').prev().replaceWith('<th id="last-month"> <img src="icon/left-arrow.png"></th>');
                     }
                     month++;
                 }
@@ -335,9 +335,9 @@ $(document).ready(function () {
                 // kalenterin thead
                 var monthName = months[month]
                 var html = '<table>';
-                html += '<thead><tr><th id="last-month"> <img src="icons/left-arrow.png"></th>';
+                html += '<thead><tr><th id="last-month"> <img src="icon/left-arrow.png"></th>';
                 html += '<th id="title" colspan="5">' + monthName + '&nbsp;' + year + '</th>';
-                html += '<th id="next-month"> <img src="icons/right-arrow.png"></th>';
+                html += '<th id="next-month"> <img src="icon/right-arrow.png"></th>';
 
                 html += '</tr><tr>';
                 for(var i = 0; i <= 6; i++ ){
@@ -346,7 +346,7 @@ $(document).ready(function () {
                 html += '</tr></thead>';
 
 
-                $.get("http://users.metropolia.fi/~mirkon/api.php/prices", function(data) {
+                $.get("../prices.php", function(data) {
                     calendarData = JSON.parse(data);
                 
                     html += '<tbody><tr>'
@@ -450,7 +450,7 @@ $(document).ready(function () {
 
             // luo äänestyksen tulosten perusteella palkkigraafin
             function createGraph(element) {
-                $.get("http://users.metropolia.fi/~mirkon/results.php", function(data) {
+                $.get("../results.php", function(data) {
                     var object = JSON.parse(data);
                     var rows = object.length;
                     if (rows>10) {
