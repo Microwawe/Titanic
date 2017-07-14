@@ -212,7 +212,7 @@ input[type="checkbox"] {
 }
 
 .valid-input {
-    background-image: url("../icons/thumbsUp.png");
+    background-image: url("../icon/thumbsUp.png");
     background-position: right top;
     background-repeat: no-repeat;
 }
