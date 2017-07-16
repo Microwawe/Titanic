@@ -102,11 +102,6 @@ section {
     padding: 52px 0 1em 0;
 }
 
-section:nth-child(even) {
-    background: #074d92; 
-    color: #fff;
-}
-
 section p:last-child {
     margin-bottom: 1.5em;
 }
@@ -138,10 +133,35 @@ p {
     /*box-shadow:0px 0px 0px 2px #074d92 inset; */
 }
 
+#cover-image {
+    background-image: url(../images/boat.jpg);
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#para1 {
+    background-image: url(../images/DSC_5246.jpg);
+}
+
+#para2 {
+    background-image: url(../images/DSC_5593.jpg);
+}
+
+#para3 {
+    background-image: url(../images/beers.jpg);
+    background-size: cover;
+}
+
 .parallax {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    height: 600px;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .close {
@@ -399,6 +419,21 @@ input[type="checkbox"] {
 #content {
     padding: 0;
     margin: 0;
+}
+
+#kuvaus {
+    background: #074d92; 
+    color: #fff;
+}
+
+#info {
+    background: #fff; 
+    color: #074d92;
+}
+
+#ilmo {
+    background: #074d92; 
+    color: #fff;
 }
 
 #calendar-wrap {
