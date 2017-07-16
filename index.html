@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Metropolian uusille tieto- ja viestintätekniikan oppilaille järjestettävä risteilytapahtuma Ruotsiin.">
+    <meta name="keywords" content="titanic, metropolia, risteily, silja line, silja, fuksi, titanic v, titanic 5, titanic risteily">
     <meta name="author" content="Mirko Nowak">
     <title>Titanic V</title>
     <link rel="stylesheet" href="css/style.css">
@@ -13,17 +15,17 @@
 </head>
 <body>
     <div class="container">
-            <nav>
-                <ul class="navbar">
-                    <li class="active"><a id="homepage" href="#home">TITANIC<img id="logo" src="icon/cruise.png"></a></li>
-                    <li><a href="#kuvaus">KUVAUS</a></li>
-                    <li><a href="#info">INFO</a></li>
-                    <li><a href="#ilmo">ILMOITTAUTUMINEN</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <ul class="navbar">
+                <li class="active"><a id="homepage" href="#home">TITANIC<img id="logo" src="icon/cruise.png"></a></li>
+                <li><a href="#kuvaus">KUVAUS</a></li>
+                <li><a href="#info">INFO</a></li>
+                <li><a href="#ilmo">ILMOITTAUTUMINEN</a></li>
+            </ul>
+        </nav>
         <div id="content">
             <section id="home">
-                <div class="parallax"><img class="rounded-bottom" src="icon/boat.jpg"></div>
+                <div id="cover-image" class="rounded-bottom"></div>
                 <h2>Titanic tulee taas syksyllä</h2>
                 <article>
                     <p>Perinteinen tekniikan alan fuksien eli tursaiden tutustumisristeily järjestetään jo neljättä kertaa syksyllä 2017.
@@ -34,6 +36,7 @@
                     Ilmoittaudu mukaan!
                 </button></a>
             </section>
+            <div id="para1" class="parallax"></div>
             <section id="kuvaus">
                 <div>
                     <article>
@@ -60,6 +63,9 @@
                     </article>
                 </div>
             </section>
+
+            <div id="para2" class="parallax"></div>
+
             <section id="info">
                 <div id="result-preview">
                     <div id="result-preview-wrap">
@@ -88,6 +94,9 @@
                         Sen lisäksi tarvitset mukaan vain positiivista asennetta, halutessasi haalarit sekä seuraavalle aamulle jotain helpotusta mahdolliseen päänsärkyyn.</p>
                 </div>
             </section>
+
+            <div id="para3" class="parallax"></div>
+
             <section id="ilmo">
                 <h2>Ilmoittautumislomake</h2> 
                     <form id="ilmolomake">
@@ -199,7 +208,6 @@
                         </div>
                         <p id="form-message"></p>
                     </form> 
-
                     
                 </div>
             </section>
