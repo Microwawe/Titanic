@@ -134,14 +134,6 @@ p {
     /*box-shadow:0px 0px 0px 2px #074d92 inset; */
 }
 
-#cover-image {
-    background-image: url(../images/boat.jpg);
-    background-position: center;
-    height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 #para1 {
     background-image: url(../images/DSC_5246.jpg);
 }
