@@ -39,6 +39,7 @@ nav {
     right: auto;
     top: 0;
     width: 70%;
+    max-width: 1200px;
     z-index: 999;
 }
 
