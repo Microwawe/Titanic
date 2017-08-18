@@ -1,0 +1,641 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"clip",
+				"clip-path"
+			],
+			[
+				"backround",
+				"background-size"
+			],
+			[
+				"backgrou",
+				"background-repeat"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"fle",
+				"flex-end"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"gt",
+				"gtc\tgrid template columns property"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"s",
+				"flex-start"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"data",
+				"dataString"
+			],
+			[
+				"date",
+				"dateNumber"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"json",
+				"json_votes"
+			],
+			[
+				"0px",
+				"0px"
+			],
+			[
+				"result",
+				"result-preview-wrap"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"create",
+				"createGraph"
+			],
+			[
+				"calenda",
+				"calendarData"
+			],
+			[
+				"price",
+				"price"
+			],
+			[
+				"update",
+				"updateCalendar"
+			],
+			[
+				"start",
+				"startingDay"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"border-rad",
+				"border-radius"
+			],
+			[
+				"border-bot",
+				"border-bottom-left-radius"
+			],
+			[
+				"show",
+				"showResults"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"selected",
+				"selectedDate"
+			],
+			[
+				"selecte",
+				"selectedDate"
+			],
+			[
+				"css",
+				"addClass"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"border-bottom",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-radius",
+				"border-bottom-left-radius"
+			],
+			[
+				"curren",
+				"current_cabin"
+			],
+			[
+				"bday",
+				"bday"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"form",
+				"form-message"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"valid",
+				"validemail"
+			],
+			[
+				"chec",
+				"checkEmail"
+			],
+			[
+				"che",
+				"checkEmail"
+			],
+			[
+				"felx",
+				"flex-direction"
+			],
+			[
+				"sa",
+				"Sans"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"colum",
+				"column-span"
+			],
+			[
+				"column",
+				"column-count"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"list",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 15466,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 11287,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/WEB_PROJECTS/Titanic",
+		"/D/WEB_PROJECTS/Titanic/css"
+	],
+	"file_history":
+	[
+		"/D/WEB_PROJECTS/Portfolio/css/style.css",
+		"/D/WEB_PROJECTS/Portfolio/photo.html",
+		"/D/WEB_PROJECTS/Portfolio/index.html",
+		"/C/Users/Micro/Desktop/test.html",
+		"/D/WEB_PROJECTS/Portfolio 2.0/style.css",
+		"/D/WEB_PROJECTS/Portfolio 2.0/index.html",
+		"/D/WEB_PROJECTS/CSS Grid/CSS-Grid/style.css",
+		"/D/WEB_PROJECTS/CSS Grid/CSS-Grid/index.html",
+		"/D/WEB_PROJECTS/Photography/index.html",
+		"/C/Users/Micro/Desktop/Clean Design/index.html",
+		"/C/Users/Micro/Desktop/Twitch look-a-like/css/style.css",
+		"/C/Users/Micro/Desktop/Twitch look-a-like/index.html",
+		"/D/WEB_PROJECTS/Titanic/index.html",
+		"/D/WEB_PROJECTS/Titanic/css/style.css",
+		"/C/Users/Micro/Desktop/TitanicV2/js/scripts.js",
+		"/C/Users/Micro/Desktop/Uusi tekstiasiakirja.txt",
+		"/C/Users/Micro/Desktop/prices.php",
+		"/C/Users/Micro/Desktop/database.php",
+		"/C/Users/Micro/Desktop/TitanicV2/index.html",
+		"/D/WEB_PROJECTS/Titanic/js/scripts.js",
+		"/D/WEB_PROJECTS/Titanic/vote.php",
+		"/C/Users/Micro/Desktop/vote.php",
+		"/D/WEB_PROJECTS/Titanic/api.php",
+		"/D/WEB_PROJECTS/Titanic/database.php",
+		"/C/Users/Micro/Desktop/TitanicV/js/scripts.js",
+		"/C/Users/Micro/Desktop/TitanicV2/css/style.css",
+		"/C/Users/Micro/Desktop/TitanicV2/vote.php",
+		"/C/Users/Micro/Desktop/TitanicV2/database.php",
+		"/C/Users/Micro/Desktop/TitanicV2/form.php",
+		"/C/Users/Micro/Desktop/TitanicV2/api.php",
+		"/C/Users/Micro/Desktop/TitanicV2/results.php",
+		"/C/Users/Micro/Desktop/form.php",
+		"/C/Users/Micro/Desktop/TitanicV2/index.php",
+		"/H/TitanicV/js/scripts.js",
+		"/H/TitanicV/prices.php",
+		"/H/TitanicV/css/style.css",
+		"/H/TitanicV/index.html",
+		"/H/TitanicV/vote.php",
+		"/H/TitanicV/form.php",
+		"/H/TitanicV/js/calendar.js",
+		"/C/Users/Micro/Desktop/TitanicV/test.html",
+		"/C/Users/Micro/Desktop/TitanicV/js/calendar.js",
+		"/C/Users/Micro/Desktop/TitanicV/css/style.css",
+		"/C/Users/Micro/Desktop/TitanicV/index.html",
+		"/C/Users/Micro/Desktop/TitanicV/results.php",
+		"/C/Users/Micro/Desktop/caleandar-master/caleandar-master/js/demo.js",
+		"/C/Users/Micro/Desktop/fullcalendar-3.4.0/fullcalendar-3.4.0/fullcalendar.js",
+		"/C/Users/Micro/Desktop/caleandar-master/caleandar-master/js/caleandar.js",
+		"/C/Users/Micro/Desktop/TitanicV/form.php",
+		"/C/Users/Micro/Desktop/TitanicV/vote.php",
+		"/C/Users/Micro/Desktop/TitanicV/database.php",
+		"/C/Users/Micro/Desktop/Website/style.css",
+		"/C/Users/Micro/Desktop/TitanicV/index.php",
+		"/C/Users/Micro/Desktop/Website/index.html",
+		"/C/Users/Micro/Desktop/CSS3 Dropdown Menu/index.html",
+		"/C/Users/Micro/Desktop/CSS3 Dropdown Menu/style.css",
+		"/C/Users/Micro/Desktop/Side slider/index.html",
+		"/C/Users/Micro/Desktop/Side slider/style.css",
+		"/C/Users/Micro/Desktop/TitanicV/php/database.php",
+		"/C/Users/Micro/Desktop/TitanicV/php/index.php",
+		"/C/Users/Micro/Desktop/HTML jQuery/style.css",
+		"/C/Users/Micro/Desktop/HTML jQuery/scripts.js",
+		"/C/Users/Micro/Desktop/HTML jQuery/index.html",
+		"/C/Users/Micro/Desktop/Titanic/css/style.css",
+		"/C/Users/Micro/Desktop/Clean Design/style.css",
+		"/C/Users/Micro/Desktop/Quiz/index.html",
+		"/C/Users/Micro/Desktop/Titanic/index.html",
+		"/C/Users/Micro/Desktop/Clean Design-20170324T190150Z-001/Clean Design/index.html",
+		"/C/Users/Micro/Desktop/Clean Design-20170324T190150Z-001/Clean Design/style.css",
+		"/C/Users/Micro/Desktop/Clean Design/about.html",
+		"/C/Users/Micro/Desktop/Clean Design/team.html",
+		"/C/Users/Micro/Desktop/Clean Design/contact.html",
+		"/C/Users/Micro/Desktop/Clean Design/portfolio.html",
+		"/C/Users/Micro/Desktop/Clean Design/jobs.html",
+		"/C/Users/Micro/Desktop/HTML/style.css",
+		"/C/Users/Micro/Desktop/Centone/style.css",
+		"/C/Users/Micro/Desktop/Centone/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"100",
+			"<strong>",
+			"<strong> ",
+			"</strong>",
+			"starting",
+			"$$post",
+			"_POST",
+			"color",
+			"pricedata",
+			"\">",
+			"<span class=\"price\">25€</span>",
+			".9.",
+			".10.",
+			"greyed-out",
+			"greyed-out\"",
+			"class=\"greyed-out\"",
+			"total_cabins",
+			"4",
+			"j",
+			"i",
+			"nimipattern",
+			"sectionItems",
+			"synt1",
+			"40px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"                ",
+			"                 ",
+			"$post",
+			"calendarData",
+			"<span class=\"price\">25€</span> <span class=\"description\"> </span>",
+			"",
+			"result",
+			"namepattern",
+			"sections"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\WEB_PROJECTS\\Titanic"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3789,
+								3789
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 735.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7046,
+								7046
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"HTML\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
