@@ -5,7 +5,7 @@
 		[
 			[
 				"back",
-				"background-size"
+				"background-color"
 			],
 			[
 				"pad",
@@ -276,7 +276,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 11287,
+				"buffer_size": 11498,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -489,8 +489,8 @@
 						"selection":
 						[
 							[
-								3789,
-								3789
+								2137,
+								2137
 							]
 						],
 						"settings":
@@ -500,7 +500,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 735.0,
+						"translation.y": 525.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -518,15 +518,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11287,
+						"buffer_size": 11498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7046,
-								7046
+								9513,
+								9513
 							]
 						],
 						"settings":
@@ -536,7 +536,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 9263.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
