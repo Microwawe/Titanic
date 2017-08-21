@@ -153,7 +153,7 @@ p {
     height: 40px;
     display: block;
     position: absolute;
-    top: -40px;
+    top: -39px;
     left: 0;
     background-color: #074d92;
     clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%);
@@ -637,6 +637,16 @@ input[type="checkbox"] {
         display: none;
     }
 
+    .clip-path-blue::before {
+        height: 25px;
+        top: -24px;
+    }
+
+    .clip-path-blue::after {
+        height: 25px;
+        bottom: -24px;
+    }
+
     .controls {
         width: 90%;
     }
@@ -716,6 +726,16 @@ input[type="checkbox"] {
 
     .clip-path-white::before, .clip-path-white::after, .clip-path-hero::after {
         display: none;
+    }
+
+    .clip-path-blue::before {
+        height: 20px;
+        top: -19px;
+    }
+
+    .clip-path-blue::after {
+        height: 20px;
+        bottom: -19px;
     }
 
     .controls {
