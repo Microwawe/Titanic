@@ -169,7 +169,7 @@ p {
     bottom: -39px;
     left: 0;
     background-color: #074d92;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 10%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 0%);
     z-index: 200;
 }
 
@@ -180,9 +180,9 @@ p {
     display: block;
     position: absolute;
     top: -39px;
-    left: 1px;
+    left: -1px;
     background-color: #fff;
-    clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%);
     z-index: 200;
 }
 
@@ -416,8 +416,6 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-ff3225
-
 .vote-button {
     padding: 7px;
 }
@@ -448,9 +446,7 @@ ff3225
 }
 
 .menu-ilmo:hover {
-    background-color: #fff;
-    border: solid 2px #074d92;
-    color: #074d92;
+    background-color: #06407a;
 }
 
 #menu-ilmo {
@@ -633,6 +629,14 @@ ff3225
         font-size: 0em;
     }
 
+    .parallax {
+        display: none;
+    }
+
+    .clip-path-white::before, .clip-path-white::after, .clip-path-hero::after {
+        display: none;
+    }
+
     .controls {
         width: 90%;
     }
@@ -647,9 +651,6 @@ ff3225
 
     .contact {
         flex-direction: column;
-    }
-    .parallax {
-        height: 250px;
     }
 
     .hyttikaveri {
@@ -707,6 +708,14 @@ ff3225
 
     .description {
         font-size: 0em;
+    }
+
+    .parallax {
+        display: none;
+    }
+
+    .clip-path-white::before, .clip-path-white::after, .clip-path-hero::after {
+        display: none;
     }
 
     .controls {
