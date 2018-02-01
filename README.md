@@ -7,7 +7,7 @@ This is the website for our Titanic-cruises. Users can read about the story of h
 
 ### Development
 
-The frontend was done with HTML, CSS, JS and jQuery. Backend was created with PHP and a MySQL database.
+The frontend was done with HTML, CSS, JS and jQuery. Backend was created with PHP and the data was stored in a MySQL database.
 
 ### Author
 
